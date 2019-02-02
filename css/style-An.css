@@ -1,0 +1,92 @@
+html{
+	
+}
+body {
+	margin: 0 auto;
+	
+	background-color: #fff;
+}
+#animation_container{
+	margin:0 auto;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+	
+}
+.imagemap__img{
+	margin-right: 10%;
+	 margin-left:10%;
+}
+.m-imagemap{
+	margin: 0 auto;
+}
+.js .imagemap__item {
+  display: none;
+}
+.imagemap__text{
+	font-size: 18px;
+	background-color:  #4CAF50;
+	overflow: hidden;
+	margin: 0 20px 10px 20px;
+	color:white;
+	line-height: 30px;
+	
+}
+.imagemap__textps4{
+	font-size: 18px;
+	background-color: #0B67EC;
+	overflow: hidden;
+	margin: 0 20px 10px 20px;
+	color:white;
+	line-height: 30px;
+}
+.imagemap__text p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.imagemap__textps4 p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.imagemap__list{
+	
+	float: left;
+	width: auto;
+	list-style-type: none;
+	margin: 0 auto;
+	
+}
+.imagemap__hl{
+	font-size: 17px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	color: white;
+}
+.image__text{
+	width: 200px;
+	height: 175px;
+	float: right;
+	margin:0 8px 8px 0;
+	
+}
+@media screen and (max-width: 860px) {
+    .imagemap__img {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 48em) {
+  .imagemap__item:target {
+    display: block;
+  }
+
+  .imagemap__item:target > .imagemap__text {
+    display: block;
+  }
+}
